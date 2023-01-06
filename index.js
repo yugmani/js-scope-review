@@ -14,7 +14,7 @@ if (true) {
 //console.log(myName);  //myName is not defined
 
 //function scope
-function name() {
+function testfn() {
   const myName = 'Batman';
   console.log(myName);
   console.log(num);
@@ -22,7 +22,7 @@ function name() {
 //console.log(myName); //myName is not defined
 
 //invoke function
-name();
+testfn();
 
 //global scope
 console.log(num);
