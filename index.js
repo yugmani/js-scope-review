@@ -1,3 +1,6 @@
+// Import stylesheets
+import './style.css';
+
 //Review of Scope in Javascript
 // ***************************** */
 
@@ -14,7 +17,7 @@ if (true) {
 //console.log(myName);  //myName is not defined
 
 //function scope
-function testfn() {
+function name() {
   const myName = 'Batman';
   console.log(myName);
   console.log(num);
@@ -22,7 +25,7 @@ function testfn() {
 //console.log(myName); //myName is not defined
 
 //invoke function
-testfn();
+name();
 
 //global scope
 console.log(num);
